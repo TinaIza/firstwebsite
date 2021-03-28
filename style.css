@@ -1,0 +1,89 @@
+body{
+	background: url('singleflower.jpg');  
+	background-size: cover;
+}
+
+*{
+	text-decoration: none;
+	font-family: Georgia, "Times New Roman";
+}
+header{
+	text-align: center;  
+	font-size: 3rem;
+
+}
+
+header.home{
+	background-color: #EBC4F1;  
+
+}
+header.about{
+	background-color: rgba(0, 255, 0, 0.2); 
+	}
+header.register{
+	background-color: #F3B07F;
+}
+header.galery{
+	background-color: rgba(238, 163, 77, 0.4);
+}
+
+form.register{
+	background-color: rgba(255, 203, 5, 0.3);
+	border-radius: 10%;
+	border: 2px solid navy;
+	margin-left: 34%;
+	margin-right: 34%;
+}
+@media only screen and (max-width: 700px) {
+  form.register {
+    margin-left: 5%;
+	margin-right: 5%;
+  }
+}
+
+
+h1.home, form.register{
+	text-align: center;
+}
+.pink{
+	background: rgba(255, 0, 0, 0.2);
+	border:1px solid  rgba(255, 0, 0, 0.3);
+	line-height: 1.2rem;
+
+
+}
+.green{
+	background: rgba(0, 255, 0, 0.2);
+	border: 1px solid rgba(0, 255, 0, 0.3);
+	line-height: 1.2rem;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+}
+ img{
+ 	width: 450px;
+ 	height: 300px;
+ 	margin: 10px;
+ 	transition: all 1s;
+ 	border: 1px solid pink;
+ }
+ img:hover{
+ 	transform: scale(1.2);
+ }
+ .container{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: center;
+
+ }
+h1.galery{
+	text-align: center;
+ 	font-size: 2em;
+ 	border-bottom: 2px solid rgba(238, 163, 77, 0.4);
+ 	width: 15em;
+ 	border-right:2px solid rgba(238, 163, 77, 0.4);
+ 	box-shadow: 4px 4px 5px #888888;
+ 	margin-left:0px;
+ }
